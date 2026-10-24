@@ -1,0 +1,20 @@
+FEATURES OF PYTHON
+
+1. Easy to Learn
+2. High-Level Language
+3. Interpreted Language
+4. Dynamically Typed: Variables do not require explicit type declarations.
+5. Object-Oriented
+6. Free and Open Source
+7. Platform Independent
+8. Portable: Python code can be transferred between compatible systems with minimal changes.
+9. Large Standard Library: Python provides built-in modules for many common programming tasks.
+10. Automatic Memory Management: Python automatically manages memory allocation and garbage collection. It has three types of memory such as static, stack and heap.
+11. Interactive Mode: Python allows users to execute commands interactively.
+12. Readable Syntax: Python uses indentation to define code blocks, improving readability.
+13. Rapid Development: Its concise syntax helps developers build applications quickly.
+14. Extensible: Python can be extended with code written in languages such as C and C++.
+15. Embeddable: Python can be embedded into applications written in other programming languages.
+16. Database Connectivity: Python supports connections to databases such as MySQL, SQLite, and PostgreSQL through suitable libraries.
+17. Code Reusability: Functions, modules, and packages help reuse code and reduce duplication.
+18. Strong Community Support: Python has a large community that provides tutorials, documentation, and solutions.
