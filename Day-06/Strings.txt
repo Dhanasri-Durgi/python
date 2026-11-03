@@ -1,0 +1,67 @@
+OPERATIONS OF STRING
+
+1.Concatenation:combining 2 strings
+    Here we use "+" symbol to perform this operation.
+2.Rotation: Repeating same character or word for n no.of times
+    Here we use "*" symbol to perform this operation
+3.Indexing: Accessing characters based on their positions.
+    i.Positive indexing
+    ii.Negative indexing
+    Eg:
+        o 1 2 3 4 5  #positive indexing
+        P y t h o n
+       -6 -5 -4 -3 -2 -1   #negative indexing
+4.Slicing: Accessing particular words based on their start and end positions
+    s[start:end+1:step count]
+    default values is s[0:n:1]
+5.Membership: Checking whether the element is present or not.
+    Here we use in and not in operator
+
+
+
+Methods of String
+
+1.len()
+2.ord():order function is used to find the ansci code of given character
+3.chr():gives the character for ansci code
+4.max()
+5.min()
+6.sorted()
+7.upper()
+8.lower()
+9.swapcase():swaps uppercase with lower case and viceversa
+10.Capitalize():only starting letter of sentence becomes capital
+11.title():starting letter of each and every word will become capital
+12.casefold(): it is used for high order characters conversion
+
+
+
+
+STRING FORMATTING
+1.center():
+    input.center(number of symbols,"symbol")
+    s.center(40,"*")
+2.ljust():
+    input.ljust(number of symbols,"symbol")
+    s.ljust(40,"*")
+3.rjust():
+    input.rjust(number of symbols,"symbol")
+    s.rjust(40,"*")
+4.zfill():
+    input.zfill(number of digits should contain)
+    '10'.zfill(6)     #000010
+
+
+find():it is used to find the position of character in a word or sentence.
+    By default it gives the position of first occuring element in case of the repetitions
+rfind(): it finds the position from the right side
+index() and rindex() are having the same functionalities as find() and rfind()
+"but in find() if the character is not present in the given inp then it shows output as -1 whereas index() shows error"
+count():used to find the count of elements
+strip():it is used to remove gaps or empty spaces on the right and left side of a word but it does not remove the gaps between the word
+lstrip():it is used to remove the gaps on the left side of the string
+rstrip():it is used to remove the gaps on the right side of the string
+replace():it is replace a character or set of sequence with another character or set of sequence,if we need to change the morethan 1 character which are in different positions then we need to use translate()
+maketrans():it is used to replace the set of characters with another set of sequence
+translate():it uses maketrans() to translate
+    
