@@ -1,0 +1,36 @@
+Example program
+
+n=10
+if n%2==0:
+    print("Even")
+else:
+    print("Odd")
+
+
+
+the small unit of a program is called as "TOKEN"
+tokens are of 5 ways
+1.Identifier: names of variables, functions, classes, modules etc..
+2.Operator
+3.Literals: numbers, strings, characters
+4.Keywords
+5.Punctuations
+
+Now lets divide the above prgm into tokens
+
+n --identifier
+= --operator
+10 --literal
+if --keyword
+n --identifier
+% --operator 
+2 --literal
+== --operator
+0 --literal
+: --punctuation
+print() --identifier
+"Even" --literal
+else --keyword
+: --puctuation
+print() --identifier
+"Odd" --literal

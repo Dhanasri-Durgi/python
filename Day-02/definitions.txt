@@ -1,0 +1,24 @@
+A line of code is called as a "STATEMENT"
+A container which is used to store a value,numbers, and strings are called as "VARIABLES"
+
+Rules for variables:
+1.Variables may start with Upper case,Lower case,underscore but doesnot start with numerical values
+2.Variables doesnot contain any special characters except "_"
+3.variables may contain numbers and underscore
+4.Keywords are not allowed to name as variables
+5.these are case insensitive i.e.,my and My are two different variables
+
+
+COMMENTS
+1.Single line comment is gonna represent with "#"
+2.Multi line comments are gonna represent with "'''"
+example:
+'''
+multi
+line
+comments
+'''
+
+
+
+
