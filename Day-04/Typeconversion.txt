@@ -1,0 +1,11 @@
+TYPE CONVERSIONS
+
+1. Interger cannot be converted into list,tuple,set,dict
+2. Float cannot be converted into list,tuple,set,dict
+3. Complex cannot be converted into int,float,list,tuple,set,dict
+4. string can be converted into any numeric datatypes only if it contains numerical values otherwise it not.string cannot be converted into dict
+5. List cannot be converted into int,float,complex,dict
+6. tuple cannot be converted into int,float,complex,dict
+7. set cannot be converted into int,float,complex,dict
+8. dict cannot be converted into int,float,complex whereas for list and tuple we will get only key values
+9. bool cannot be converted into list,tuple,set,dict
