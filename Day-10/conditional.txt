@@ -1,0 +1,13 @@
+Conditional Statements Examples
+
+if : Sending a notification when a payment is successful.
+     Allowing users to download a certificate after completing a course
+
+if-else: Login authentication (valid or invalid credentials.)
+         Exam portal (eligible or not eligible.)
+
+elif ladder: Electricity billing based on consumption units.
+             Flight ticket pricing based on passenger category
+
+
+nested if: Railway ticket booking (login, seat availability and payment verification.)
