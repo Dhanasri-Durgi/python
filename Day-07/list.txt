@@ -1,0 +1,34 @@
+LISTS
+
+It is ordered,mutable,heterogeneous,dynamic and allows duplicates
+
+OPERATIONS:
+    1.concatenation
+    2.REpitition
+    3.INdexing
+    4.slicing
+    5.Membership
+Methods:
+    1.len()
+    2.sorted()
+    3.max()
+    4.min()
+Modifying functions:we are modifying elements with in the same memory reference
+    1.append():is used to add one element at end of thelist
+    2.extend():is used to add multiple elements at end of the list
+    3.insert():is used to add one element at the specific position in a list
+    4.pop():is used to delete element at the end of the list and if we want to delete a specific element we can give index number such as l.pop(0)
+    5.remove():is used to delete element using its value instead of index number such as l.remove(67)
+    6.del(): is used to delete the element such as del l[0]
+    7.clear():is used to delete the whole list
+
+count()
+index()
+sorted():it will not effect the original list
+sort():it will effect the original list
+reverse():it will effect the original list
+copy():once we this fun then the original list we be replicated but the changes we have done to the replicated list will not effect the original list
+
+we know that 0,0.0,' ',[],() {} are false values
+any():if the given list contains any value other than the above values then it is true
+all():if the given list contains any one of the above value then it is false
