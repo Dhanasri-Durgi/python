@@ -1,0 +1,43 @@
+DICTIONARY
+
+Properties:
+    1.ordered
+    2.heterogenous
+    3.dynamic size
+    4.mutable
+    5.keys must be unique and immutable
+    6.values can be anything and duplicates are allowed
+    7.membership only works for key
+Accessing elements:
+    1.we can directly access values through keys
+      d[key]=value
+      but when the key is not present in the d then it throws errors
+    2.get():it is used to access values through keys when the key is not present then it will not throw any error
+
+Adding elements:
+    1.for adding single element use d[key]=value
+    2.update():for adding multiple elements at a time
+
+Modifying elements:
+    d[key]=modified value
+
+Deleting elements:
+    1.pop():is used to delete particular element
+    2.popitem():the last element in the dict will be deleted
+    3.del :is used to delete any particular element
+    4.clear():it is used to clear or delete all the elements in the dict
+
+Methods:
+    1.keys():used to access all the keys in the dict
+    2.values():used to access all the values in the dict
+    3.items():used to access all the key value pairs
+    4.sorted()
+    5.max()
+    6.min()
+    7.len()       #4,5,6,7 methods are applicable only for keys not for values
+    8.copy()
+    9.any()
+    10.all()
+
+    1.setdefault():it is used to access the values from dict but if the accessed key is not present in dict then it will initialize it with none
+    2.fromkeys():is used to initialize more than one keys with same value
